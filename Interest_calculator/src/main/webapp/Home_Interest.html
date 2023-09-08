@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Document</title>
+   <link rel="stylesheet" href="anji2.css">
+ </head>
+ <body>
+  <form method="post" action="controller">
+  <div class="div1" id="center">
+  <H2 >INTEREST CALCULATOR</H2>
+  <label>Enter Start Date</label>
+	<input type="date" name="fdate" class="input1"><br><br>
+	<label>Enter End Date</label>
+	<input type="date" name="ldate" class="input1">
+	<br><br>
+	<label> Principal Amount</label>
+	<input type="number" name="amount" class="input2" >
+	<br><br>
+	<label>Enter Rate of Interest</label><br>
+	 <input type="text" class="input2" name="inrate">
+	 <select name="rate" id="rate" class="input2">
+    <option value="rupees">per Rupee's</option>
+    <option value="%"> %</option>
+	  </select>
+	<br>
+	<label>Choose a calculator </label><br>
+    <input type="radio" id="simpleinterest" name="calculator" value="simpleinterest">
+	<label>Simple Interest</label>
+	<input type="radio" id="compoundinterest" name="calculator" value="compoundinterest" >
+	<label>Compound Interest</label><br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="compound" id="interest" class="input2">
+    <option value="annum"> Annually</option>
+    <option value="quarterly">  Quarterly</option>
+	<option value="half"> Half-Yearly</option>
+  </select><br><br>
+ 
+ <input class="sub" type="submit">
+ </div>
+
+  </form>
+ </body>
+</html>
